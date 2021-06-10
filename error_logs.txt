@@ -1,0 +1,7 @@
+Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (/Users/andreihrs/dev/linkedin-reverse-lookup/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:195:35)
+    at next (/Users/andreihrs/dev/linkedin-reverse-lookup/node_modules/puppeteer-extra-plugin-stealth/evasions/sourceurl/index.js:30:43)
+    at CDPSession.send (/Users/andreihrs/dev/linkedin-reverse-lookup/node_modules/puppeteer-extra-plugin-stealth/evasions/sourceurl/index.js:54:16)
+    at ExecutionContext._evaluateInternal (/Users/andreihrs/dev/linkedin-reverse-lookup/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:200:50)
+    at ExecutionContext.evaluateHandle (/Users/andreihrs/dev/linkedin-reverse-lookup/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:151:21)
+    at WaitTask.rerun (/Users/andreihrs/dev/linkedin-r
